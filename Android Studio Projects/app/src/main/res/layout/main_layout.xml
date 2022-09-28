@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        //parent card view
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="159dp"
+                    android:layout_height="154dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_pug"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="PUG"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        //2nd column cardview
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="154dp"
+                    android:layout_height="154dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_labrador"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="LABRADOR"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        //2nd row cardview
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="153dp"
+                    android:layout_height="137dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_rottweiler"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ROTTWEILER"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        //2nd row 2nd column cardview
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="147dp"
+                    android:layout_height="144dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_shitzu"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SHITZU"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        //3rd row cardview
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="139dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_st_bernard"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ST BERNARD"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        //3rd row 2nd column cardview
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/Wheat"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="129dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dogpic_german_shepherd"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="GERMAN SHEPHERD"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</RelativeLayout>
